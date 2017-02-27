@@ -10,8 +10,14 @@
     <sound>sound\snd_shoot</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_testPlatform</sprite>
-    <sprite>sprites\spr_player</sprite>
+    <sprites name="game">
+      <sprite>sprites\spr_testPlatform</sprite>
+      <sprite>sprites\spr_player</sprite>
+    </sprites>
+    <sprites name="titleScreen">
+      <sprite>sprites\spr_banner</sprite>
+      <sprite>sprites\spr_conceptArt</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -20,10 +26,15 @@
       <object>objects\obj_testPlatform</object>
       <object>objects\obj_player</object>
     </objects>
+    <objects name="titleScreen">
+      <object>objects\obj_banner</object>
+      <object>objects\obj_conceptArt</object>
+      <object>objects\obj_control</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_game</room>
     <room>rooms\rm_titleScreen</room>
+    <room>rooms\rm_game</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
