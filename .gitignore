@@ -1,9 +1,9 @@
-DT4000Game/[Ll]ibrary/
-DT4000Game/[Tt]emp/
-DT4000Game/[Oo]bj/
-DT4000Game/[Bb]uild/
-DT4000Game/[Bb]uilds/
-DT4000Game/Assets/AssetStoreTools*
+DT-Game/[Ll]ibrary/
+DT-Game/[Tt]emp/
+DT-Game/[Oo]bj/
+DT-Game/[Bb]uild/
+DT-Game/[Bb]uilds/
+DT-Game/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
 DT4000Game/.vs/
