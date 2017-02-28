@@ -31,4 +31,12 @@ public class PlayerController : MonoBehaviour {
         moveDirection.y -= gravity * Time.deltaTime;
         _Controller.Move(moveDirection * Time.deltaTime);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Player")
+        {
+
+        }
+    }
 }
