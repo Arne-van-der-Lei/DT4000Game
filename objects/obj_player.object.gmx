@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>&lt;undefined&gt;</maskName>
+  <maskName>spr_testPlatform</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -29,8 +29,8 @@
 grav = 0.2; // Gravity
 hsp = 0; // Horizontal speed
 vsp = 0; // Vertical speed
-jumpSpeed = 7;
-moveSpeed = 4;
+jumpSpeed = 8;
+moveSpeed = 6;
 </string>
           </argument>
         </arguments>
