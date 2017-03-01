@@ -1,15 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Powerup1 : MonoBehaviour {
-
-    private void OnTriggerEnter(Collider other)
+public class Powerup1 : BasePowerUp
+{
+    public override void Triggered()
     {
-        if (other.tag == "Player")
-        {
-            Debug.Log("Powerup 1");
-            Destroy(gameObject);
-        }
+        Debug.Log("pow1");
     }
 }
