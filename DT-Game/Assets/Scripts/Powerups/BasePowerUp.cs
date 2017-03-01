@@ -18,10 +18,10 @@ public abstract class BasePowerUp : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            Triggered();
+            Triggered(other.gameObject);
             Destroy(gameObject);
         }
     }
 
-    public abstract void Triggered();
+    public abstract void Triggered(GameObject player);
 }

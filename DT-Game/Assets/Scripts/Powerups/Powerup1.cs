@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Powerup1 : BasePowerUp
 {
-    public override void Triggered()
+    public override void Triggered(GameObject Player)
     {
         Debug.Log("pow1");
     }
